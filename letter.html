@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090611" />
+  <meta name="description" content="A love letter for my favourite person, celebrating three years together: 29 October 2023 to 29 October 2026." />
+  <title>A Love Letter for You ♡</title>
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-letter">
+  <div class="ambient-glow glow-one" aria-hidden="true"></div>
+  <div class="ambient-glow glow-two" aria-hidden="true"></div>
+  <div class="night-sky" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Our little universe home">
+      <span class="brand-heart">♥</span>
+      <span>our little universe</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="story.html" data-page="story">Our story</a>
+      <a href="reasons.html" data-page="reasons">Reasons</a>
+      <a href="letter.html" data-page="letter">Love letter</a>
+    </nav>
+    <button class="music-toggle" type="button" aria-pressed="false" aria-label="Play our song">
+      <span class="music-icon">♫</span>
+      <span class="music-label">Play our song</span>
+      <span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+  </header>
+
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <audio id="loveSong" preload="auto" playsinline loop src="assets/our-song.mp3"></audio>
+
+  <main class="page-main">
+    <section class="page-intro wrap letter-page-intro">
+      <span class="eyebrow"><span class="eyebrow-dot"></span> OUR STORY BEGAN · 29 OCTOBER 2023</span>
+      <p class="script-kicker">From my heart to yours.</p>
+      <h1>A little letter<br /><em>for my favourite person.</em></h1>
+      <p class="intro-description">No fancy words, just a few honest ones I hope you always keep close to your heart.</p>
+      <div class="intro-flourish">♡　✉　♡</div>
+    </section>
+
+    <section class="letter-paper wrap">
+      <div class="paper-corner corner-a">✧</div>
+      <div class="paper-corner corner-b">✧</div>
+      <div class="letter-topline">
+        <span>FOR YOU, ALWAYS</span>
+        <span>29.10.2023 — 29.10.2026</span>
+      </div>
+      <div class="letter-seal">♥</div>
+      <h2>To my favourite person,</h2>
+      <div class="letter-body">
+        <p>Three years. Somehow that sounds both so big and still not nearly enough time with you.</p>
+        <p>When I think about us, I don't only think about the big milestones. I think about the little things: the conversations that go on longer than planned, the random laughs, the comfort of knowing you're there, and all the moments that probably looked ordinary to everyone else but mean something to me.</p>
+        <p>Thank you for being part of my life, for the memories we've made, and for the person I keep getting to know. I know neither of us is perfect, and I don't expect every day to be perfect either. I just hope we keep trying to understand each other, keep being kind, and keep choosing this little team of ours.</p>
+        <p>I can't fit three years of feelings into one website or one letter. But I can tell you this: what we have matters to me, and I'm grateful for every chapter we've shared.</p>
+        <p>Happy three years, my love. Here's to more silly moments, honest talks, unexpected adventures, and a thousand small reasons to smile. And when life gets busy, I hope we remember to keep making room for the small things that brought us here.</p>
+        <p>If I could go back to the start, knowing everything I know now, I would still want to meet you, learn you, laugh with you, and make this story ours. There is so much I still want to experience with you. For now, I just want you to know that you are loved, appreciated, and chosen.</p>
+      </div>
+      <div class="letter-signoff">
+        <p>Happy 3rd anniversary, my love.</p>
+        <strong>Yours, with all my heart <span>♥</span></strong>
+      </div>
+      <button class="button button-rose kiss-button" id="sendKiss" type="button">
+        Sending you a thousand kisses <span>💋</span>
+      </button>
+    </section>
+
+    <section class="letter-after wrap">
+      <span class="giant-heart">♡</span>
+      <div>
+        <span class="eyebrow">AND ONE LAST THING</span>
+        <h2>My favourite chapter<br /><em>will always include you.</em></h2>
+        <p>Thank you for these three wonderful years. Here's to a lifetime of love and whatever beautiful thing comes next.</p>
+        <a class="underlined-link" href="index.html">Back to our little universe <span>♡</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-heart">♥</div>
+    <p>Three years down, a lifetime of little moments to go.</p>
+    <span>29 OCTOBER 2023 — 29 OCTOBER 2026 · OUR STORY</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
